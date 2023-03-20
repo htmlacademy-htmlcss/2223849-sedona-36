@@ -65,21 +65,21 @@
                      <legend class="catalog-filter-title">Инфраструктура:</legend>
                      <ul class="catalog-filter-list">
                         <li class="catalog-filter-item">
-                           <label class="control">
+                           <label class="control control-checkbox">
                               <input class="visually-hidden control-input" type="checkbox" name="pool" checked>
                               <span class="control-mark"></span>
                               <span class="control-label">Бассейн</span>
                            </label>
                         </li>
                         <li class="catalog-filter-item">
-                           <label class="control">
+                           <label class="control control-checkbox">
                               <input class="visually-hidden control-input" type="checkbox" name="parking">
                               <span class="control-mark"></span>
                               <span class="control-label">Парковка</span>
                            </label>
                         </li>
                         <li class="catalog-filter-item">
-                           <label class="control">
+                           <label class="control control-checkbox">
                               <input class="visually-hidden control-input" type="checkbox" name="wifi">
                               <span class="control-mark"></span>
                               <span class="control-label">Wi-Fi</span>
@@ -89,7 +89,7 @@
                   </fieldset>
                   <fieldset class="catalog-filter-group">
                      <legend class="catalog-filter-title">Тип Жилья:</legend>
-                     <ul class="catalog-filter-list">
+                     <ul class="catalog-filter-list catalog-filter-radio">
                         <li class="catalog-filter-item">
                            <label class="control">
                               <input class="visually-hidden control-input" type="radio" value="hotel" name="type-of-housing" checked>
@@ -239,19 +239,19 @@
                      1
                   </li>
                   <li class="pagination-item">
-                     <a href="" class="pagination-link">2</a>
+                     <a href="#" class="pagination-link">2</a>
                   </li>
                   <li class="pagination-item">
-                     <a href="" class="pagination-link">3</a>
+                     <a href="#" class="pagination-link">3</a>
                   </li>
                   <li class="pagination-item">
-                     <a href="" class="pagination-link">4</a>
+                     <a href="#" class="pagination-link">4</a>
                   </li>
                   <li class="pagination-item pagination-dots">
                      ...
                   </li>
                   <li class="pagination-item">
-                     <a href="" class="pagination-link">10</a>
+                     <a href="#" class="pagination-link">10</a>
                   </li>
                </ul>
             </section>
@@ -317,6 +317,7 @@
                      <label class="set-form-label" for="dateFrom">Дата Заезда:</label>
                      <div class="set-form-date-block">
                         <input class="set-form-date" type="date" name="dateFrom" id="dateFrom" value="2020-04-27">
+                        <div class="set-form-date-value">27 апреля 2020</div>
                         <span class="set-form-info set-form-error">Мы не можем отправить вас в прошлое.</span>
                      </div>
                   </div>
@@ -324,6 +325,7 @@
                      <label class="set-form-label" for="dateFrom">Дата Выезда:</label>
                      <div class="set-form-date-block">
                         <input class="set-form-date" type="date" name="dateTo" id="dateTo" value="2023-09-01">
+                        <div class="set-form-date-value">1 сентября 2023</div>
                         <span class="set-form-info">На эти даты есть свободные номера. Пока есть.</span>
                      </div>
                   </div>
